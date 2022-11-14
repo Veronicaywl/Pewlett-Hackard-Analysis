@@ -34,7 +34,7 @@ FROM unique_titles as ut
 GROUP BY title
 ORDER BY COUNT(title) DESC;
 
-SELECT * FROM unique_titles;
+SELECT * FROM retiring_titles;
 
 --Deliverable 2
 -- create a mentorship eligibilty table
